@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 
 export const Navbar = ({ menuOpen, setMenuOpen }) => {
   useEffect(() => {
@@ -41,6 +41,13 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             >
               {" "}
               Projects{" "}
+            </a>
+            <a
+              href="#background"
+              className="text-gray-300 hove:text-white transition-colors"
+            >
+              {" "}
+              Background{" "}
             </a>
             <a
               href="#contact"
